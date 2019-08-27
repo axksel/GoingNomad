@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Vertical") && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x,jumpHeight);
+           
         }
 
     }
